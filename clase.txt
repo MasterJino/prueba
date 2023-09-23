@@ -1,0 +1,48 @@
+Crear carpeta en el equipo
+Click derecho Open Git Bash Here
+Configurar nombre y correo en Git
+git config --global user.name "Jairo Laguna"
+git config --global user.email "jairolaguna@gmail.com"
+
+Administrador de Credenciales 
+Credenciales de Windows
+Borrar las de otros y la mia
+
+Comandos Linux
+pwd -> directorio
+
+git init -> convierte esta carpeta en repositorio de Git
+
+git status -> muestra si hay algo pendiente
+
+git add [nombre del archivo] -> Le dice a Git que inicie a rastrear los cambios de este archivo
+
+git add . -> El . rastrea todo lo que esta en la carpeta en la que esta
+	     El .. rastrea todo lo que esta en la carpeta 
+
+git commit -am "Se agrego el archivo App.java.txt" -> descripcion al estado o cambio actual
+
+git log -> historial de cambio
+
+Ir a Git Hub
+	Crear repositorio en la nube (nombre sin espacio)
+
+Ir de nuevo al repositorio local
+git remote add origin [URL de github] - Asocia mi repositorio local con mi repositorio en la nube
+Ejemplo: git remote add origin https://github.com/MasterJino/prueba.git
+
+git remote -v -> muestra la url del repositorio en la nube
+
+git push -u origin master -> nombre de la linea de tiempo
+
+
+--------
+
+En una carpeta en Casa - ¡¡VACIA!!
+
+Creo una carpeta y doy Open Git Bash Here
+git init -> convierte esta carpeta en repositorio de Git
+
+git remote add origin https://github.com/MasterJino/prueba.git
+
+git pull origin master 
